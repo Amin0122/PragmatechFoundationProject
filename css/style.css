@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header{
+    width: 1920px;
+    height: 62px;
+    border: 1px solid  white;
+    display: flex;
+    box-shadow: 0px 4px 16px rgb(10 19 49 / 8%);
+}
+.header-container{
+    width: 1000px;
+    height: 50px;
+
+    margin-left: 470px;
+    
+}
+.logo-more{
+    width: 300px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: inline-block;
+        
+    
+}
+.logo-image{
+    object-fit: cover;
+    display: flex;
+    height: 58px;
+    width: 142px;
+}
+
+
+.left-item{
+ /* align-items: center;
+width: 380px;
+height: 50px;
+
+margin-left: 600px;
+margin-bottom: 45px;
+position: absolute;
+top: 5px; */
+
+margin-left: 600px;
+    position: absolute;
+    top: 5px;
+
+}
+.left-item i{
+    font-size: 25px;
+}
+.left-item span{
+    font-size: 20px;
+    margin-left:20px;
+}
+.left-item button{
+    margin:4px 30px;
+    background-color: #ff2366;
+    border: 1px solid;
+    font-size: 15px;
+    width: 131px;
+    height: 48px;
+    border-radius: 21px;
+}
+.left-item button  a{
+    text-decoration: none;
+    color: #fff;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.login i{
+    color: gray;
+    transition: .3s;
+}
+.login i:hover{
+    color: red;
+}
+/* Header -End */
+
+
+#advert{
+    width: 100%;
+    border: 1px solid;
+}
+.container{
+
+    width: 650px;
+    border: 1px solid  red;
+    margin: 60px auto;
+}
+.about-advert-image{
+    width: 600px;
+    border: 1px solid  green;
+    height: 680px;
+}
+.big-image{
+    border: 1px solid yellow;
+    height: 600px;
+}
+.big-image .img{
+    height: 100%;
+    width: 100%;
+}
+.slides{
+    justify-content: space-between;
+    display: flex;
+    height: 65px;
+    object-fit: cover;
+    border: 1px solid blue;
+    margin-top: 13px;
+}
+.slides .img{
+    height: 100%;
+    width: 100%;
+}
